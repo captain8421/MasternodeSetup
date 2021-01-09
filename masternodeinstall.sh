@@ -1,9 +1,9 @@
 #!/bin/bash
 
 TMP_FOLDER=$(mktemp -d)
-CONFIG_FILE='sap.conf'
-CONFIGFOLDER='/root/.sap'
-COIN_DAEMON='sapd'
+CONFIG_FILE='sapphire.conf'
+CONFIGFOLDER='/root/.sapphire'
+COIN_DAEMON='sapphired'
 COIN_CLI='sapphire-cli'
 COIN_TX='sapphire-tx'
 COIN_PATH='/usr/local/bin/'
